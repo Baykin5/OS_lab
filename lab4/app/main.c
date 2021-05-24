@@ -163,7 +163,7 @@ int uEntry(void) {
 	// Note that you can create your own functions.
 	// Requirements are demonstrated in the guide.
     /*哲学家就餐问题*/
-    /*
+    
 	printf("philosopher\n");
 	int i = 0;
 	sem_t forks[5];
@@ -181,7 +181,7 @@ int uEntry(void) {
 		}
 	}
 	philosopher(i, forks);
-    */
+    
 
     /*生产者消费者问题*/
     /*
@@ -208,6 +208,7 @@ int uEntry(void) {
     */
 
     /*读者写者问题*/
+	/*
     printf("reader_writer\n");
 	int Rcount = 0;
 	sem_t writeblock;
@@ -232,5 +233,6 @@ int uEntry(void) {
 	}
 
 	exit();
+	*/
 	return 0;
 }
